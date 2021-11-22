@@ -1,8 +1,10 @@
 #Mbps
 Megabits per second is a unit of measurement used to indicate download and upload speed.i
+ইন্টারনেট স্পিড হিসেব করার জন্যে bits হিসেব করা হ
 
 #MBps
- Megabytes per second is also a unit measurement, but is used more to indicate the rate at which a file is downloaded or uploaded.
+ Megabytes per second is also a unit measurement, but is used more to indicate the rate at which a file is downloaded or uploaded. 
+রাউন্ড ফিগারে ফাইল সাইজ হিসেব করার জন্যে byte হিসেব করা হয়।
 
 ...
 
@@ -32,29 +34,18 @@ We also round up bits into kilobits (Kb) and megabits (Mb).
 
 ...
 
-
-
-
-
-
-
 1 Byte = 8 bits
 
 1kilobyte = 1000 bytes  # Kilobytes(KB) in decimal, in binary it is 1024bytes.
 
 125KiloByte = 125*1000 bytes
-
-​                       = 125000bytes
+                       = 125000bytes
 
 1MegaByte = 1000kilobyte
-
-​					 = 1000*1000bytes ( because, 1kilobyte = 1000 bytes )
-
-​                     = 1000000bytes
-
-​                     = 1000000*8bits (1byte = 8bits)
-
-​                     = 8000000bits
+					 = 1000*1000bytes ( because, 1kilobyte = 1000 bytes )
+                     = 1000000bytes*
+                     = 1000000*8bits (1byte = 8bits)	
+                     = 8000000bits
 
 ...
 
@@ -91,8 +82,9 @@ MB/s : Megabyte per second
 
  1Mbps = 0.125MB/s অথাৎ ইণ্টারনেট ষ্পিড যদি 1Mbps দেখায় তাহলে 1 সেকেন্ডে 0.125MB  ডাইনলোড হচ্ছে। তাহলে 1MB ডাউনলোড হতে 8 সেকেন্ড লাগবে কারণ 0.125MB*8=1MB ।
 
+byte কে  bits এ নিতে byte এর সাথে ৮ গুণ করতে হবে। 
+bits কে byte  এ নিতে bits কে ৮ দিয়ে ভাগ করতে হবে। 
 সহজ হিসেব হলো যতো bps দেখাবে তাকে 8 দিয়ে ভাগ দিলে কত Byte করে ডাউনলোড হচ্ছে তা দেখাবে। 
-
 byte কে 8 দিয়ে গুন করলে কত bps করে ডাউনলোড হচ্ছে তা দেখাবে।
 
 ....
